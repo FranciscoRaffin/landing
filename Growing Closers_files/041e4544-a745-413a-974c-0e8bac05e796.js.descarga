@@ -1,0 +1,3 @@
+console.log('%cFunnel powered by CF PRO TOOLS™️','font-weight: bold; font-size: 16px; color: #1372B0;');
+console.log('%cNot a valid referring domain for add on: 041e4544-a745-413a-974c-0e8bac05e796','font-weight: bold; font-size: 16px; color: red;');
+console.log('%cIf you are the site owner, please login at https://app.cfprotools.com and add this domain to your account','font-weight: bold; font-size: 16px; color: red;');
