@@ -10,6 +10,13 @@ body {
     background: linear-gradient(to bottom, #ff8d01, #000000);
 }
 
+.degrade-inv {
+    background: linear-gradient(to bottom,#000000, #ff8d01);
+}
+
+.degrade-2{
+    background: linear-gradient(to bottom, #ffffff, #2e2b2b);
+}
 
 .header {
     padding: 50px 0;
@@ -158,8 +165,8 @@ body {
   .main-video-container {
     position: relative;
     background-color: #060a2e;
-    width: 1000px; /* Ajustar el ancho del marco */
-    height: 640px; /* Ajustar la altura del marco */
+    width: 1050px; /* Ajustar el ancho del marco */
+    height: auto; /* Ajustar la altura del marco */
     margin: 0 auto; /* Centrar el marco en la página */
     border: 2px solid #ae700d; /* Agregar un borde negro */
     border-radius: 7px; /* Agregar esquinas redondeadas */
@@ -175,4 +182,8 @@ body {
 .Who-are-we {
     background-color: #efefef;
     color: #000000;
+}
+
+.Testimonios{
+    color: rgb(233, 233, 233);
 }
