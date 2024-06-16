@@ -2,20 +2,18 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: white;
+    color: rgb(0, 0, 0);
+    background-color: #000000;
     text-align: center;
 }
 
 .degrade{
-    background: linear-gradient(to bottom, #ff8d01, #000000);
+    background: linear-gradient(to bottom, #eb8303, #000000);
 }
 
-.degrade-inv {
-    background: linear-gradient(to bottom,#000000, #1e1e89);
-}
 
 .degrade-2{
-    background: linear-gradient(to bottom, #ffffff, #2e2b2b);
+    background: linear-gradient(to bottom, #000000, #041d3b);
 }
 
 .header {
@@ -112,7 +110,7 @@ body {
     width: 80%;
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.5);
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 
@@ -202,8 +200,10 @@ body {
 
 
 .Who-are-we {
-    background-color: #efefef;
-    color: #000000;
+    background-color: #000000;
+    color: #da9526;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .Testimonios{
