@@ -41,6 +41,14 @@ body {
 
 .calendly-container {
     margin: 0px 0;
+
+    
+}
+
+.calendly-inline-widget{
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* Basic styling */
@@ -165,8 +173,8 @@ body {
   .main-video-container {
     position: relative;
     background-color: #060a2e;
-    width: 1050px; /* Ajustar el ancho del marco */
-    height: auto; /* Ajustar la altura del marco */
+    display: flex;
+    /* Ajustar la altura del marco */
     margin: 0 auto; /* Centrar el marco en la página */
     border: 2px solid #ae700d; /* Agregar un borde negro */
     border-radius: 7px; /* Agregar esquinas redondeadas */
