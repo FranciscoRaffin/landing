@@ -7,6 +7,11 @@ body {
     text-align: center;
 }
 
+.nav{
+    background-color: #000000;
+    color: #ffffff;
+}
+
 .degrade{
     background: linear-gradient(to bottom, #eb8303, #000000);
 }
@@ -30,12 +35,20 @@ body {
 .highlight {
     color: #00ff00;
 }
+
+
 .main-video-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    background-color: #201007;
+    display: flex;
+    /* Ajustar la altura del marco */
+    margin: 10 auto; /* Centrar el marco en la página */
+    border: 2px medium #499f17ce; /* Agregar un borde negro */
+    border-radius: 7px; /* Agregar esquinas redondeadas */
     
-
 }
 
 .video{
@@ -45,15 +58,16 @@ body {
 
 .calendly-container {
     margin: 0px 0;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
 .calendly-inline-widget{
-    max-height: 470px;    
-    margin: 30px;
+    max-height: 470px;
+    max-width: 550px;
     
-
     
 }
 
@@ -76,20 +90,11 @@ body {
     position: relative;
 }
 
-.main-video-container {
-  position: relative;
-  background-color: #4a230d;
-  display: flex;
-  /* Ajustar la altura del marco */
-  margin: 10 auto; /* Centrar el marco en la página */
-  border: 2px medium #838382; /* Agregar un borde negro */
-  border-radius: 7px; /* Agregar esquinas redondeadas */
-}
+
 
 
 .main-video-container iframe {
-  width: 390px;
-  height: 220px;
+  max-width: 1000px;
 
 }
 
